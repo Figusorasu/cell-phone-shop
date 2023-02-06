@@ -21,7 +21,8 @@ class Phone {
 		screenSize = SIZE_OF_SCREEN;
 		price = PRICE;
 
-		cout << "Phone has been added with following parameters:" ;
+		cout << "Phone has been created with following parameters: ";
+		displayParametres();
 	}
 
 	~Phone() {
@@ -29,7 +30,7 @@ class Phone {
 	}
 
 	void displayParametres() {
-		cout << getBrand() << " | " << getModel() << " | " << getFormFactor() << " | " << getYearOfIssue() << " | " << getScreenSize() << " | " << getPrice() << " | "
+		cout << getBrand() << " | " << getModel() << " | " << getFormFactor() << " | " << getYearOfIssue() << " | " << getScreenSize() << " | " << getPrice() << " | ";
 	}
 
 	string getBrand() {
